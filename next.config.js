@@ -2,11 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   optimizeFonts: false,
+
+  // Required for Render — Next.js standalone output bundles the server into
+  // .next/standalone so `npm start` works without a separate server file
+  output: 'standalone',
+
   webpack: (config, { dev }) => {
     if (dev) {
       config.watchOptions = {
         ...config.watchOptions,
-        // هون كتبنا الـ Glob Patterns كـ Strings نظيفة ومستحيل تضرب الـ Schema
         ignored: [
           '**/node_modules/**',
           '**/.next/**',
@@ -19,9 +23,12 @@ const nextConfig = {
     }
     return config;
   },
+
   experimental: {
+    // Bundle the pre-seeded SQLite db into the Next.js output trace
+    // so it is copied into .next/standalone/prisma/ for the Render deployment
     outputFileTracingIncludes: {
-      '/**/*': ['./prisma/dev.db']
+      '/**/*': ['./prisma/dev.db', './prisma/schema.prisma']
     }
   }
 };

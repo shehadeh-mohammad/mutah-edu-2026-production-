@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: mutah-edu-production
+    runtime: node
+    plan: free
+    region: oregon
+
+    # The root of the project is this directory
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+
+    # Render persistent disk — keeps dev.db alive across restarts
+    disk:
+      name: sqlite-data
+      mountPath: /data
+      sizeGB: 1
+
+    envVars:
+      - key: NODE_ENV
+        value: production
+
+      # Absolute path to the SQLite database on the persistent disk
+      - key: DATABASE_URL
+        value: file:/data/dev.db
+
+      # Port — Render injects this automatically, but we declare it for clarity
+      - key: PORT
+        value: 3000
+
+      # --- API Keys (replace values in the Render dashboard) ---
+      - key: GEMINI_API_KEY
+        sync: false   # Mark as secret — Render will prompt you to enter the value
