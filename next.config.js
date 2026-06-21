@@ -3,9 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   optimizeFonts: false,
 
-  // Required for Render — Next.js standalone output bundles the server into
-  // .next/standalone so `npm start` works without a separate server file
-  output: 'standalone',
+  // output: 'standalone', // Disabled for native Next.js server routing
 
   webpack: (config, { dev }) => {
     if (dev) {
