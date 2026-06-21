@@ -5,28 +5,17 @@ services:
     plan: free
     region: oregon
 
-    # The root of the project is this directory
     buildCommand: npm install && npm run build
-    startCommand: npm start
-
-    # Render persistent disk — keeps dev.db alive across restarts
-    disk:
-      name: sqlite-data
-      mountPath: /data
-      sizeGB: 1
+    startCommand: node .next/standalone/server.js
 
     envVars:
       - key: NODE_ENV
         value: production
 
-      # Absolute path to the SQLite database on the persistent disk
+      # SQLite resolves to ./prisma/dev.db relative to process.cwd()
+      # No paid disk needed — ephemeral container resets to pre-seeded data on restart
       - key: DATABASE_URL
-        value: file:/data/dev.db
+        value: file:./prisma/dev.db
 
-      # Port — Render injects this automatically, but we declare it for clarity
-      - key: PORT
-        value: 3000
-
-      # --- API Keys (replace values in the Render dashboard) ---
       - key: GEMINI_API_KEY
-        sync: false   # Mark as secret — Render will prompt you to enter the value
+        sync: false
