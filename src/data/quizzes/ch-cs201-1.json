@@ -1,0 +1,31 @@
+{
+  "chapterId": "ch-cs201-1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What scheduling algorithm assigns the CPU to the process with the smallest burst time?",
+      "options": ["FCFS", "Round Robin", "SJF (Shortest Job First)", "Priority Scheduling"],
+      "correctIndex": 2,
+      "explanation": "SJF minimizes average waiting time by always scheduling the process with the shortest estimated CPU burst next."
+    },
+    {
+      "id": "q2",
+      "question": "What is a race condition?",
+      "options": [
+        "When two processes run at the same speed",
+        "When two processes access shared data concurrently and the outcome depends on execution order",
+        "When the CPU runs out of processes to execute",
+        "When a process waits indefinitely for a resource"
+      ],
+      "correctIndex": 1,
+      "explanation": "A race condition occurs when multiple threads access shared data without synchronization, and the final result depends on the unpredictable execution order."
+    },
+    {
+      "id": "q3",
+      "question": "Which OS data structure stores all information about a running process?",
+      "options": ["Page Table", "Process Control Block (PCB)", "File Descriptor Table", "Interrupt Vector"],
+      "correctIndex": 1,
+      "explanation": "The PCB (Process Control Block) stores the process state, program counter, registers, memory info, and scheduling information."
+    }
+  ]
+}

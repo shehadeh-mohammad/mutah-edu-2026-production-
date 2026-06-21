@@ -1,0 +1,33 @@
+{
+  "chapterId": "ch-ds101-1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which algorithm is NOT a supervised learning method?",
+      "options": ["Linear Regression", "K-Means Clustering", "Support Vector Machine", "Decision Tree"],
+      "correctIndex": 1,
+      "explanation": "K-Means is unsupervised — it groups data into clusters without using labeled training examples."
+    },
+    {
+      "id": "q2",
+      "question": "What does the activation function do in a neural network?",
+      "options": ["Computes the final loss", "Introduces non-linearity", "Normalizes the input data", "Updates the weights"],
+      "correctIndex": 1,
+      "explanation": "Activation functions add non-linearity to the network, enabling it to learn complex, non-linear patterns in data."
+    },
+    {
+      "id": "q3",
+      "question": "Which metric is best suited for an imbalanced classification dataset?",
+      "options": ["Accuracy", "F1-Score", "Mean Squared Error", "R² Score"],
+      "correctIndex": 1,
+      "explanation": "F1-Score balances precision and recall, making it robust for imbalanced datasets where accuracy can be misleadingly high."
+    },
+    {
+      "id": "q4",
+      "question": "What does 'regularization' prevent in machine learning?",
+      "options": ["Underfitting", "Overfitting", "Slow training", "Data imbalance"],
+      "correctIndex": 1,
+      "explanation": "Regularization (L1/L2) penalizes large weights, preventing the model from memorizing training data and improving generalization."
+    }
+  ]
+}

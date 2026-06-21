@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ch-cs201-1",
+    "courseId": "cs201",
+    "title": "Process Management",
+    "videoId": "OAWl6F_9HJ8",
+    "slidesTitle": "Processes, Threads & CPU Scheduling",
+    "duration": "50 min",
+    "order": 1,
+    "description": "Understand process lifecycle, PCB structure, context switching, thread models, and key CPU scheduling algorithms: FCFS, SJF, Round Robin, and Priority.",
+    "resource": {
+      "name": "Process_Management_Slides.pdf",
+      "size": "1.2 MB",
+      "url": "#"
+    }
+  },
+  {
+    "id": "ch-cs201-2",
+    "courseId": "cs201",
+    "title": "Memory Management",
+    "videoId": "OAWl6F_9HJ8",
+    "slidesTitle": "Virtual Memory, Paging & Segmentation",
+    "duration": "45 min",
+    "order": 2,
+    "description": "Explore logical vs physical address spaces, paging, TLBs, page replacement algorithms (LRU, FIFO, Optimal), and thrashing prevention strategies.",
+    "resource": {
+      "name": "Memory_Management_Slides.pdf",
+      "size": "2.0 MB",
+      "url": "#"
+    }
+  }
+]

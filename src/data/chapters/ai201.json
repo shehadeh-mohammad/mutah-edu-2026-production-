@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-ai201-1",
+    "courseId": "ai201",
+    "title": "أساسيات تعلم الآلة",
+    "videoId": "Gv9_4yMHFhI",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "أساسيات_تعلم_الآلة_Slides.pdf",
+      "size": "3.4 MB",
+      "url": "#"
+    }
+  }
+]

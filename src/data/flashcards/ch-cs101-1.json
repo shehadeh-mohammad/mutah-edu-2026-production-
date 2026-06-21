@@ -1,0 +1,30 @@
+{
+  "chapterId": "ch-cs101-1",
+  "cards": [
+    {
+      "id": "fc-1",
+      "question": "What is the time complexity of inserting at the head of a Linked List?",
+      "answer": "O(1) — constant time. We only update the head pointer, regardless of list size."
+    },
+    {
+      "id": "fc-2",
+      "question": "What does an Array guarantee that Linked Lists do not?",
+      "answer": "Contiguous memory allocation, which enables O(1) random access by index via pointer arithmetic."
+    },
+    {
+      "id": "fc-3",
+      "question": "What is the difference between singly and doubly linked lists?",
+      "answer": "A doubly linked list has pointers to both the NEXT and PREVIOUS nodes, enabling bidirectional traversal at the cost of extra memory."
+    },
+    {
+      "id": "fc-4",
+      "question": "When should you prefer a Linked List over an Array?",
+      "answer": "When you need frequent insertions/deletions at the beginning or middle, and do NOT require random index access."
+    },
+    {
+      "id": "fc-5",
+      "question": "What is the space complexity of a singly linked list with n elements?",
+      "answer": "O(n) — each node stores the data plus one pointer to the next node."
+    }
+  ]
+}

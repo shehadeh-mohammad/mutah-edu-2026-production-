@@ -1,0 +1,25 @@
+{
+  "chapterId": "ch-cs101-2",
+  "cards": [
+    {
+      "id": "fc-1",
+      "question": "What property makes a Binary Search Tree (BST) efficient for search?",
+      "answer": "Every left child is smaller and every right child is larger than the parent, enabling O(log n) average-case search."
+    },
+    {
+      "id": "fc-2",
+      "question": "What is the height of a complete binary tree with n nodes?",
+      "answer": "⌊log₂n⌋ — logarithmic in the number of nodes, which is why balanced trees are efficient."
+    },
+    {
+      "id": "fc-3",
+      "question": "Name the three standard tree traversal orders.",
+      "answer": "Inorder (Left → Root → Right), Preorder (Root → Left → Right), Postorder (Left → Right → Root)."
+    },
+    {
+      "id": "fc-4",
+      "question": "What is an AVL tree and why is it used?",
+      "answer": "A self-balancing BST where the height difference between left and right subtrees is at most 1. Guarantees O(log n) operations in the worst case."
+    }
+  ]
+}

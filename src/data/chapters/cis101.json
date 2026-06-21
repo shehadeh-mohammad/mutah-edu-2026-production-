@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-cis101-1",
+    "courseId": "cis101",
+    "title": "مقدمة في مستودع البيانات",
+    "videoId": "OAWl6F_9HJ8",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "مقدمة_في_مستودع_البيانات_Slides.pdf",
+      "size": "3.7 MB",
+      "url": "#"
+    }
+  }
+]

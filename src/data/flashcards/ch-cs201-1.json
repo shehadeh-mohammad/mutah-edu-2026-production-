@@ -1,0 +1,25 @@
+{
+  "chapterId": "ch-cs201-1",
+  "cards": [
+    {
+      "id": "fc-1",
+      "question": "What is a Process Control Block (PCB)?",
+      "answer": "A data structure in the OS kernel that stores all information about a process: PID, state, registers, memory maps, open files, and scheduling info."
+    },
+    {
+      "id": "fc-2",
+      "question": "What are the five states in the process lifecycle?",
+      "answer": "New → Ready → Running → Waiting → Terminated. A process can cycle between Ready and Running multiple times."
+    },
+    {
+      "id": "fc-3",
+      "question": "What is context switching?",
+      "answer": "The OS saves the current process state (registers, PC, stack) to its PCB and loads the next process's PCB to resume execution."
+    },
+    {
+      "id": "fc-4",
+      "question": "How do threads differ from processes?",
+      "answer": "Threads share the same address space, code, and data of their parent process. Creating/switching threads is faster but risks race conditions."
+    }
+  ]
+}

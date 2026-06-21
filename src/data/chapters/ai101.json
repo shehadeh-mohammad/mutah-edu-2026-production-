@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-ai101-1",
+    "courseId": "ai101",
+    "title": "مقدمة في الذكاء الاصطناعي",
+    "videoId": "JMUxmLyrhSk",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "مقدمة_في_الذكاء_الاصطناعي_Slides.pdf",
+      "size": "3.4 MB",
+      "url": "#"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.DS_Store
+public/assets/videos/
+
+# Debug & experimental scripts — local only
+scratch/
+
+# TypeScript incremental build cache
+tsconfig.tsbuildinfo
+
+# Local Netlify folder
+.netlify

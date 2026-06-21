@@ -1,0 +1,30 @@
+{
+  "chapterId": "ch-ds101-1",
+  "cards": [
+    {
+      "id": "fc-1",
+      "question": "What is the difference between classification and regression?",
+      "answer": "Classification predicts discrete labels (categories); regression predicts continuous numerical values."
+    },
+    {
+      "id": "fc-2",
+      "question": "What is overfitting?",
+      "answer": "When a model learns training data too well including its noise, causing poor performance on unseen data. Combated with regularization, dropout, and more training data."
+    },
+    {
+      "id": "fc-3",
+      "question": "Explain the bias-variance tradeoff.",
+      "answer": "High bias = underfitting (too simple). High variance = overfitting (too complex). The goal is to minimize total error by balancing both."
+    },
+    {
+      "id": "fc-4",
+      "question": "What is gradient descent?",
+      "answer": "An iterative optimization algorithm that adjusts model parameters in the direction of steepest descent of the loss function to minimize error."
+    },
+    {
+      "id": "fc-5",
+      "question": "What does L2 regularization (Ridge) do?",
+      "answer": "Adds a penalty equal to the sum of squared weights to the loss function, shrinking large weights and reducing overfitting without making them exactly zero."
+    }
+  ]
+}

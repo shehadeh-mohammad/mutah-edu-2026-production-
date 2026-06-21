@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[functions]
+  included_files = ["prisma/dev.db", "prisma/schema.prisma", "node_modules/.prisma/client/**/*"]

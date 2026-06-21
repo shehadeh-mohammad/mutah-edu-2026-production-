@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ch-cs101-1",
+    "courseId": "cs101",
+    "title": "Arrays & Linked Lists",
+    "videoId": "dQw4w9WgXcQ",
+    "slidesTitle": "Arrays and Linked Lists – Fundamentals",
+    "duration": "42 min",
+    "order": 1,
+    "description": "Explore static vs dynamic memory, pointer arithmetic, singly and doubly linked lists, and when to choose each structure for optimal performance.",
+    "resource": {
+      "name": "Arrays___Linked_Lists_Slides.pdf",
+      "size": "2.6 MB",
+      "url": "#"
+    }
+  },
+  {
+    "id": "ch-cs101-2",
+    "courseId": "cs101",
+    "title": "Trees & Binary Search Trees",
+    "videoId": "oSWTXtMglKE",
+    "slidesTitle": "Tree Data Structures – BST, AVL, and Heaps",
+    "duration": "55 min",
+    "order": 2,
+    "description": "Master binary trees, BST operations, tree traversals (inorder, preorder, postorder), AVL self-balancing, and heap data structures with real applications.",
+    "resource": {
+      "name": "Trees___Binary_Search_Trees_Slides.pdf",
+      "size": "2.7 MB",
+      "url": "#"
+    }
+  },
+  {
+    "id": "ch-cs101-3",
+    "courseId": "cs101",
+    "title": "Graph Algorithms",
+    "videoId": "09_LlHjoEiY",
+    "slidesTitle": "Graph Theory – BFS, DFS, Dijkstra & Bellman-Ford",
+    "duration": "48 min",
+    "order": 3,
+    "description": "Represent graphs using adjacency lists and matrices. Implement BFS, DFS, Dijkstra's shortest path, and topological sort for real-world problem solving.",
+    "resource": {
+      "name": "Graph_Algorithms_Slides.pdf",
+      "size": "1.0 MB",
+      "url": "#"
+    }
+  }
+]

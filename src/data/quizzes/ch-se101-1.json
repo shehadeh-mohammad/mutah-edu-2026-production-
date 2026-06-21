@@ -1,0 +1,26 @@
+{
+  "chapterId": "ch-se101-1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which pattern ensures only one instance of a class exists throughout the application?",
+      "options": ["Factory Method", "Observer", "Singleton", "Strategy"],
+      "correctIndex": 2,
+      "explanation": "The Singleton pattern restricts instantiation to exactly one object and provides a global access point to that instance."
+    },
+    {
+      "id": "q2",
+      "question": "The Factory Method pattern is classified as which type of design pattern?",
+      "options": ["Structural", "Behavioral", "Creational", "Architectural"],
+      "correctIndex": 2,
+      "explanation": "Factory Method is a Creational pattern — it defines an interface for creating objects but lets subclasses decide which class to instantiate."
+    },
+    {
+      "id": "q3",
+      "question": "Which pattern is best for constructing a complex object step by step?",
+      "options": ["Singleton", "Builder", "Adapter", "Observer"],
+      "correctIndex": 1,
+      "explanation": "The Builder pattern separates complex object construction into discrete steps, allowing different representations using the same process."
+    }
+  ]
+}

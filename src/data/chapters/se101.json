@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ch-se101-1",
+    "courseId": "se101",
+    "title": "Functions (الدوال)",
+    "videoId": "OAWl6F_9HJ8",
+    "slidesTitle": "Function Overloading & Parameters",
+    "duration": "40 min",
+    "order": 1,
+    "description": "تعلم كيفية بناء الدوال في C++ واستخدامها لإعادة استخدام الكود بشكل فعال، مع فهم عميق لتمرير المتغيرات كقيمة أو كمرجع.",
+    "resource": {
+      "name": "Functions_Slides.pdf",
+      "size": "2.7 MB",
+      "url": "#"
+    },
+    "transcript": "أهلاً بكم في هذه المحاضرة من مساق سي بلس بلس. اليوم سنتحدث عن الدوال أو Functions. الدوال تمثل لبنة البناء الأساسية في تنظيم الكود وتقسيمه إلى أجزاء قابلة لإعادة الاستخدام..."
+  },
+  {
+    "id": "ch-se101-2",
+    "courseId": "se101",
+    "title": "Arrays (المصفوفات)",
+    "videoId": "NU_1StN5Tkk",
+    "slidesTitle": "1D and 2D Arrays in C++",
+    "duration": "37 min",
+    "order": 2,
+    "description": "فهم المصفوفات وكيفية تخزين مجموعة من البيانات من نفس النوع، والتعامل مع المصفوفات أحادية وثنائية الأبعاد.",
+    "resource": {
+      "name": "Arrays_Slides.pdf",
+      "size": "3.4 MB",
+      "url": "#"
+    },
+    "transcript": "السلام عليكم، في المحاضرة الثانية سننتقل إلى المصفوفات Arrays. المصفوفة هي بنية بيانية تسمح بتخزين عدة قيم من نفس النوع في الذاكرة بشكل متسلسل..."
+  },
+  {
+    "id": "ch-se101-3",
+    "courseId": "se101",
+    "title": "Pointers (المؤشرات)",
+    "videoId": "OAWl6F_9HJ8",
+    "slidesTitle": "Understanding Memory Addresses",
+    "duration": "45 min",
+    "order": 3,
+    "description": "اكتشف قوة المؤشرات (Pointers) في C++ للوصول المباشر إلى عناوين الذاكرة، والتلاعب بالبيانات بمرونة عالية.",
+    "resource": {
+      "name": "Pointers_Slides.pdf",
+      "size": "4.1 MB",
+      "url": "#"
+    },
+    "transcript": "أهلاً بكم في أصعب ولكن أهم مفاهيم سي بلس بلس: المؤشرات. المؤشر ليس سوى متغير يخزن عنوان متغير آخر في الذاكرة..."
+  },
+  {
+    "id": "ch-se101-4",
+    "courseId": "se101",
+    "title": "Memory Management (إدارة الذاكرة)",
+    "videoId": "NU_1StN5Tkk",
+    "slidesTitle": "Dynamic Memory Allocation",
+    "duration": "35 min",
+    "order": 4,
+    "description": "كيفية حجز وتحرير الذاكرة ديناميكياً باستخدام new و delete لمنع تسريب الذاكرة (Memory Leaks).",
+    "resource": {
+      "name": "Memory_Management.pdf",
+      "size": "2.8 MB",
+      "url": "#"
+    },
+    "transcript": "اليوم سنتعلم كيف ندير الذاكرة بأنفسنا، وهي ميزة فريدة في C++. باستخدام الكلمات المفتاحية new و delete، يمكننا حجز الذاكرة أثناء وقت التشغيل..."
+  }
+]

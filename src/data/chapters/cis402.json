@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-cis402-1",
+    "courseId": "cis402",
+    "title": "طرق تحليل النظم",
+    "videoId": "OAWl6F_9HJ8",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "طرق_تحليل_النظم_Slides.pdf",
+      "size": "3.4 MB",
+      "url": "#"
+    }
+  }
+]

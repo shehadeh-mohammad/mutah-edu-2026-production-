@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Cairo:wght@300;400;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Amiri:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── CSS Variables — Light Mode (default) ──────────────────────────────────── */
+/* ─── CSS Variables — Light Mode (Luxury Glassmorphic Refactor) ─────────────────── */
+/* ─── CSS Variables — Light Mode (Anti-Bleach Contrast Refactor) ─────────────────── */
+:root {
+  --bg: #f1f5f9;
+  /* أزرق رمادي بارد ونظيف ومميز يكسر بياض الكلور */
+  --bg2: #e2e8f0;
+  /* درجة أعمق للتقسيمات تضمن الفصل البصري */
+  --bg3: #cbd5e1;
+  /* فواصل واضحة وحادة جداً */
+  --surface: rgba(255, 255, 255, 0.95);
+  /* زجاج حليبي ناصع ومشرق */
+  --surface2: #ffffff;
+
+  /* حواف حادة وداكنة بتمنع الكروت تسيح بالخلفية */
+  --border: #cbd5e1;
+  /* رمادي كحلي محدد وظاهر مية بالمية */
+  --border2: #94a3b8;
+  /* حدود حادة جداً للعناصر النشطة */
+
+  /* ألوان واجهة مشبعة وحيوية */
+  --blue: #1d4ed8;
+  /* أزرق ملكي غامق وواضح طحن */
+  --blue2: #2563eb;
+  --cyan: #0e7490;
+  --violet: #5b21b6;
+
+  /* نصوص مخملية حادة */
+  --text: #0f172a;
+  /* كحلي داكن جداً وقريب من الأسود للقراءة المثالية */
+  --text2: #334155;
+  --text3: #475569;
+
+  --glow-cyan: rgba(14, 116, 144, 0.15);
+  --glow-blue: rgba(29, 78, 216, 0.15);
+  --glow-violet: rgba(91, 33, 182, 0.15);
+
+  /* كروت السايدبار والـ Dashboard بطبقات تباين حقيقية */
+  --sidebar-bg: #ffffff;
+  --card-bg: #ffffff;
+  /* كروت بيضاء ناصعة تبرز فوق الأرضية الرمادية */
+  --card-border: #cbd5e1;
+  /* حدود الكروت واضحة ومحددة بلون رمادي كحلي حاد */
+  --scrollbar: rgba(148, 163, 184, 0.4);
+  --scrollbar-h: rgba(14, 116, 144, 0.6);
+
+  /* Landing page specific (تظل داكنة وفخمة لهيبتها الهولوغرافية دايماً) */
+  --hero-bg: #060b18;
+  --grid-color: rgba(255, 255, 255, 0.02);
+  --glow-x: 50%;
+  --glow-y: 50%;
+}
+
+/* ─── CSS Variables — Dark Mode ─────────────────────────────────────────────── */
+.dark {
+  --bg: #0a0f1e;
+  --bg2: #0d1428;
+  --bg3: #101930;
+  --surface: rgba(255, 255, 255, 0.028);
+  --surface2: rgba(255, 255, 255, 0.045);
+  --border: rgba(255, 255, 255, 0.08);
+  --border2: rgba(255, 255, 255, 0.14);
+  --blue: #3b82f6;
+  --blue2: #60a5fa;
+  --cyan: #06b6d4;
+  --violet: #8b5cf6;
+  --text: #f0f6ff;
+  --text2: #94b8d8;
+  --text3: #4a6882;
+  --glow-cyan: rgba(6, 182, 212, 0.5);
+  --glow-blue: rgba(59, 130, 246, 0.5);
+  --glow-violet: rgba(139, 92, 246, 0.5);
+  --sidebar-bg: rgba(10, 15, 30, 0.85);
+  --card-bg: rgba(255, 255, 255, 0.028);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --scrollbar: rgba(99, 102, 241, 0.35);
+  --scrollbar-h: #06b6d4;
+}
+
+/* ─── Keyframes ─────────────────────────────────────────────────────────────── */
+@keyframes meshShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes orbFloat1 {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate(30px, -20px) scale(1.05);
+  }
+
+  66% {
+    transform: translate(-20px, 15px) scale(0.97);
+  }
+}
+
+@keyframes orbFloat2 {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate(-25px, 30px) scale(1.03);
+  }
+
+  66% {
+    transform: translate(20px, -25px) scale(1.08);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes pulseGlow {
+
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes neonPulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 8px var(--glow-cyan), 0 0 20px rgba(6, 182, 212, 0.2);
+  }
+
+  50% {
+    box-shadow: 0 0 18px var(--glow-cyan), 0 0 45px rgba(6, 182, 212, 0.35);
+  }
+}
+
+@keyframes flowPulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1.35);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+@keyframes drawLine {
+  from {
+    stroke-dashoffset: 300;
+  }
+
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes gridFade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes floatY {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes glowPulseRing {
+  0% {
+    box-shadow: 0 0 0 0 rgba(6, 182, 212, 0.6);
+  }
+
+  70% {
+    box-shadow: 0 0 0 14px rgba(6, 182, 212, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(6, 182, 212, 0);
+  }
+}
+
+@keyframes shimmerSlide {
+  0% {
+    transform: translateX(-100%) skewX(-15deg);
+  }
+
+  100% {
+    transform: translateX(200%) skewX(-15deg);
+  }
+}
+
+@keyframes shimmerSweep {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Sans Arabic', 'Tajawal', 'Cairo', 'Plus Jakarta Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dark body,
+html.dark body {
+  background-image:
+    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(6, 182, 212, 0.07) 0%, transparent 55%),
+    radial-gradient(ellipse 70% 50% at 85% 75%, rgba(99, 102, 241, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 50% 110%, rgba(139, 92, 246, 0.05) 0%, transparent 55%);
+  background-size: 200% 200%;
+  animation: meshShift 18s ease infinite;
+}
+
+html:not(.dark) body {
+  background-image:
+    radial-gradient(ellipse 80% 60% at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 60%),
+    radial-gradient(ellipse 70% 50% at 85% 75%, rgba(139, 92, 246, 0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 80% at 50% 110%, rgba(6, 182, 212, 0.03) 0%, transparent 55%);
+}
+
+/* ─── Landing Page Base ──────────────────────────────────────────────────────── */
+.landing-root {
+  background: #060d1f;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ─── Hero Grid Background ───────────────────────────────────────────────────── */
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, black 30%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 0%, black 30%, transparent 80%);
+  animation: gridFade 2s ease forwards;
+  will-change: opacity;
+}
+
+.hero-radials {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 55% 50% at 30% 50%, rgba(6, 182, 212, 0.10) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 75% 40%, rgba(99, 102, 241, 0.10) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 50% 100%, rgba(139, 92, 246, 0.06) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-h);
+}
+
+::selection {
+  background: rgba(6, 182, 212, 0.2);
+}
+
+/* ─── Glass Base ────────────────────────────────────────────────────────────── */
+.glass {
+  background: var(--card-bg);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--card-border);
+  border-radius: 24px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.glass:hover {
+  border-color: rgba(6, 182, 212, 0.3);
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.07), 0 24px 48px rgba(0, 0, 0, 0.1);
+}
+
+/* ─── Ultra Premium Glass ────────────────────────────────────────────────────── */
+.glass-ultra {
+  background: var(--card-bg);
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  border: 1px solid var(--card-border);
+  border-radius: 35px;
+  transition: border-color 0.35s ease, box-shadow 0.35s ease, transform 0.35s ease, background 0.3s ease;
+}
+
+.glass-ultra:hover {
+  border-color: rgba(6, 182, 212, 0.4);
+  box-shadow: 0 0 40px rgba(6, 182, 212, 0.08), 0 24px 60px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.dark .glass-ultra {
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+/* ─── Refraction Glass Card ──────────────────────────────────────────────────── */
+.glass-refraction {
+  position: relative;
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.07) 0%,
+      rgba(255, 255, 255, 0.03) 50%,
+      rgba(255, 255, 255, 0.05) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 24px;
+  overflow: hidden;
+  transition: border-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
+  will-change: transform;
+}
+
+.glass-refraction::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(circle 200px at var(--glow-x, 50%) var(--glow-y, 50%),
+      rgba(6, 182, 212, 0.12),
+      transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.glass-refraction:hover::before {
+  opacity: 1;
+}
+
+.glass-refraction:hover {
+  border-color: rgba(6, 182, 212, 0.25);
+  box-shadow:
+    0 0 40px rgba(6, 182, 212, 0.08),
+    0 20px 60px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  transform: translateY(-3px);
+}
+
+.glass-refraction>* {
+  position: relative;
+  z-index: 1;
+}
+
+/* ─── Stats Bridge Bar ────────────────────────────────────────────────────────── */
+.stats-bridge {
+  backdrop-filter: blur(32px);
+  -webkit-backdrop-filter: blur(32px);
+  background: linear-gradient(135deg,
+      rgba(6, 182, 212, 0.06) 0%,
+      rgba(255, 255, 255, 0.04) 50%,
+      rgba(139, 92, 246, 0.06) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 20px;
+  box-shadow:
+    0 0 60px rgba(6, 182, 212, 0.08),
+    0 20px 60px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+/* ─── Gradient text ─────────────────────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa 0%, #06b6d4 50%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+html:not(.dark) .gradient-text {
+  background: linear-gradient(135deg, #1d4ed8 0%, #0369a1 50%, #6d28d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-text-gold {
+  background: linear-gradient(135deg, #f0f6ff 0%, #c7d9f8 40%, #67e8f9 80%, #a78bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-name {
+  background: linear-gradient(135deg, #a5b4fc 0%, #67e8f9 60%, #c4b5fd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: none;
+}
+
+/* ─── Flow SVG animations ────────────────────────────────────────────────────── */
+.flow-line {
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  transition: stroke-dashoffset 1s ease;
+}
+
+.flow-line.active {
+  stroke-dashoffset: 0;
+}
+
+.flow-node-ring {
+  animation: glowPulseRing 2s ease-out infinite;
+}
+
+.flow-node-pulse {
+  animation: flowPulse 2s ease-out infinite;
+}
+
+/* ─── Float animation ────────────────────────────────────────────────────────── */
+.float-y {
+  animation: floatY 4s ease-in-out infinite;
+}
+
+/* ─── Shimmer sweep ──────────────────────────────────────────────────────────── */
+.shimmer-sweep::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.06), transparent);
+  transform: translateX(-100%) skewX(-15deg);
+  animation: shimmerSlide 3s ease-in-out infinite;
+}
+
+/* ─── Logo visibility ────────────────────────────────────────────────────────── */
+html:not(.dark) img[alt="Mutah University Logo"] {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.25)) !important;
+}
+
+/* ─── Neon ring ──────────────────────────────────────────────────────────────── */
+.neon-ring {
+  border-radius: 50%;
+  animation: neonPulse 2.5s ease-in-out infinite;
+}
+
+/* ─── Flashcard Flip ────────────────────────────────────────────────────────── */
+.flashcard-scene {
+  perspective: 1200px;
+}
+
+.flashcard-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.flashcard-card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+/* ─── Skeleton ──────────────────────────────────────────────────────────────── */
+.skeleton {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.04) 25%, rgba(255, 255, 255, 0.09) 50%, rgba(255, 255, 255, 0.04) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 12px;
+}
+
+/* ─── Progress bar ──────────────────────────────────────────────────────────── */
+.progress-track {
+  height: 4px;
+  background: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--cyan));
+  border-radius: 4px;
+  transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 0 10px rgba(6, 182, 212, 0.4);
+}
+
+/* ─── Page Transition ───────────────────────────────────────────────────────── */
+.page-transition {
+  animation: fadeInUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* ─── Emerald Pulse ─────────────────────────────────────────────────────────── */
+.emerald-pulse {
+  width: 8px;
+  height: 8px;
+  background: #10b981;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6);
+  animation: pulseGlow 1.8s ease-in-out infinite;
+}
+
+/* ─── RTL support ───────────────────────────────────────────────────────────── */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* ─── Theme transitions ─────────────────────────────────────────────────────── */
+*,
+*::before,
+*::after {
+  transition-property: background-color, border-color, color, box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+canvas,
+video,
+img {
+  transition: none;
+}

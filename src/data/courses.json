@@ -1,0 +1,190 @@
+[
+  {
+    "id": "cs101",
+    "title": "Data Structures & Algorithms",
+    "majorId": "cs",
+    "credits": 3,
+    "chapterIds": [
+      "ch-cs101-1",
+      "ch-cs101-2",
+      "ch-cs101-3"
+    ],
+    "progress": 75,
+    "emoji": "🗂️",
+    "description": "Master the fundamental data structures and algorithmic paradigms every software engineer must know.",
+    "instructor": "Dr. Omar Lasasmeh",
+    "duration": "16 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "cs201",
+    "title": "Operating Systems",
+    "majorId": "cs",
+    "credits": 3,
+    "chapterIds": [
+      "ch-cs201-1"
+    ],
+    "progress": 45,
+    "emoji": "⚙️",
+    "description": "Deep dive into OS internals: process management, threading, memory virtualization, file systems, and I/O.",
+    "instructor": "Dr. Suliman",
+    "duration": "16 weeks",
+    "level": "Advanced"
+  },
+  {
+    "id": "cs301",
+    "title": "Computer Networks",
+    "majorId": "cs",
+    "credits": 3,
+    "chapterIds": [
+      "ch-cs301-1"
+    ],
+    "progress": 20,
+    "emoji": "🌐",
+    "description": "Comprehensive study of networking from physical to application layer.",
+    "instructor": "Prof. Ahmad Alhasnat",
+    "duration": "16 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "se101",
+    "title": "برمجة سي بلس بلس (Programming in C++)",
+    "majorId": "software-engineering",
+    "credits": 3,
+    "chapterIds": [
+      "ch-se101-1",
+      "ch-se101-2",
+      "ch-se101-3",
+      "ch-se101-4"
+    ],
+    "progress": 60,
+    "emoji": "⌨️",
+    "description": "دراسة متعمقة في لغة سي بلس بلس، من الأساسيات إلى المؤشرات وإدارة الذاكرة.",
+    "instructor": "Dr. Zakaria Al-Tarawneh",
+    "duration": "16 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "se201",
+    "title": "البرمجة كينونية التوجه (OOP)",
+    "majorId": "software-engineering",
+    "credits": 3,
+    "chapterIds": [
+      "ch-se201-1",
+      "ch-se201-2",
+      "ch-se201-3",
+      "ch-se201-4"
+    ],
+    "progress": 30,
+    "emoji": "📦",
+    "description": "إتقان مفاهيم البرمجة كينونية التوجه باستخدام C++ لبناء أنظمة برمجية متينة ومستدامة.",
+    "instructor": "Eng. Anas Alkasasbeh",
+    "duration": "16 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "ai101",
+    "title": "مقدمة في الذكاء الاصطناعي (Intro to AI)",
+    "majorId": "ai",
+    "credits": 3,
+    "chapterIds": [
+      "ch-ai101-1"
+    ],
+    "progress": 0,
+    "emoji": "🧠",
+    "description": "Introduction to Artificial Intelligence concepts, logic, search algorithms, and basic knowledge representation.",
+    "instructor": "Dr. Ali Shdifat",
+    "duration": "16 weeks",
+    "level": "Beginner"
+  },
+  {
+    "id": "ai201",
+    "title": "تعلم الآلة (Machine Learning)",
+    "majorId": "ai",
+    "credits": 3,
+    "chapterIds": [
+      "ch-ai201-1"
+    ],
+    "progress": 0,
+    "emoji": "🤖",
+    "description": "Learn to build, train, evaluate, and deploy ML models using Python, scikit-learn, and PyTorch.",
+    "instructor": "Dr. Ahmad Al-Tarawneh",
+    "duration": "16 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "cy101",
+    "title": "أمن الشبكات (Network Security)",
+    "majorId": "cyber-security",
+    "credits": 3,
+    "chapterIds": [
+      "ch-cy101-1"
+    ],
+    "progress": 0,
+    "emoji": "🔐",
+    "description": "Understand network vulnerabilities, firewalls, VPNs, and intrusion detection systems.",
+    "instructor": "Eng. Mustafa Hammad",
+    "duration": "16 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "cy201",
+    "title": "التشفير (Cryptography)",
+    "majorId": "cyber-security",
+    "credits": 3,
+    "chapterIds": [
+      "ch-cy201-1"
+    ],
+    "progress": 0,
+    "emoji": "🔏",
+    "description": "Mathematical foundations for modern cryptography: symmetric, asymmetric encryption, RSA, and hashing.",
+    "instructor": "Dr. Hayat Al-dmour",
+    "duration": "16 weeks",
+    "level": "Advanced"
+  },
+  {
+    "id": "ai301",
+    "title": "الشبكات العصبية (Neural Networks)",
+    "majorId": "ai",
+    "credits": 3,
+    "chapterIds": [
+      "ch-ai301-1"
+    ],
+    "progress": 0,
+    "emoji": "🌌",
+    "description": "Deep Learning architectures, CNNs, RNNs, and transformer models for advanced AI applications.",
+    "instructor": "Dr. Ali Shdifat",
+    "duration": "16 weeks",
+    "level": "Advanced"
+  },
+  {
+    "id": "cis401",
+    "title": "إدارة قواعد البيانات (Database Management)",
+    "majorId": "cis",
+    "credits": 3,
+    "chapterIds": [
+      "ch-cis401-1"
+    ],
+    "progress": 0,
+    "emoji": "🗄️",
+    "description": "Enterprise database design, SQL optimization, and NoSQL solutions for modern business intelligence.",
+    "instructor": "Prof. Basem Al-Matalqeh",
+    "duration": "16 weeks",
+    "level": "Intermediate"
+  },
+  {
+    "id": "cis402",
+    "title": "تحليل وتصميم النظم (Systems Analysis)",
+    "majorId": "cis",
+    "credits": 3,
+    "chapterIds": [
+      "ch-cis402-1"
+    ],
+    "progress": 0,
+    "emoji": "🔍",
+    "description": "Methodologies for analyzing business requirements and modeling robust architectural information systems.",
+    "instructor": "Dr. Ahmad Al-Khalil",
+    "duration": "16 weeks",
+    "level": "Advanced"
+  }
+]

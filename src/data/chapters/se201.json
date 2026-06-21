@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ch-se201-1",
+    "courseId": "se201",
+    "title": "Chapter 09: Structs",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch09-Structs.vid.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch09-Structs.pdf",
+    "aiContextSummary": "This chapter introduces structs in C++, covering how to define and use user-defined data structures.",
+    "slidesTitle": "Structs",
+    "duration": "45 min",
+    "order": 1,
+    "description": "تعلم أساسيات استخدام الهياكل (Structs) لتجميع البيانات في C++.",
+    "resource": {
+      "name": "ch09-Structs.pdf",
+      "size": "526 KB",
+      "url": "/assets/chapters/oop/ch09-Structs.pdf"
+    }
+  },
+  {
+    "id": "ch-se201-2",
+    "courseId": "se201",
+    "title": "Chapter 10: Classes and Data Abstraction - Part I",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch10-Classes and Data AbstractionP1.vid.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch10-Classes-Abstraction-PartI.pdf",
+    "aiContextSummary": "This chapter introduces classes, objects, and basic data abstraction in C++ OOP.",
+    "slidesTitle": "Classes and Data Abstraction - Part I",
+    "duration": "35 min",
+    "order": 2,
+    "description": "تعلم أساسيات البرمجة كينونية التوجه من خلال تصميم الكلاسات وبناء الكائنات التي تحاكي كيانات العالم الحقيقي.",
+    "resource": {
+      "name": "ch10-Classes-Abstraction-PartI.pdf",
+      "size": "731 KB",
+      "url": "/assets/chapters/oop/ch10-Classes-Abstraction-PartI.pdf"
+    }
+  },
+  {
+    "id": "ch-se201-3",
+    "courseId": "se201",
+    "title": "Chapter 10: Classes and Data Abstraction - Part II",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch10-Classes and Data Abstraction.P2.vid.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch10-Classes-Abstraction-PartII.pdf",
+    "aiContextSummary": "This chapter covers encapsulation, access modifiers (public/private), and getters/setters in C++.",
+    "slidesTitle": "Classes and Data Abstraction - Part II",
+    "duration": "52 min",
+    "order": 3,
+    "description": "فهم أهمية إخفاء البيانات (Data Hiding) من خلال محددات الوصول (public, private, protected) وكيفية التغليف الصحيح.",
+    "resource": {
+      "name": "ch10-Classes-Abstraction-PartII.pdf",
+      "size": "790 KB",
+      "url": "/assets/chapters/oop/ch10-Classes-Abstraction-PartII.pdf"
+    }
+  },
+  {
+    "id": "ch-se201-4",
+    "courseId": "se201",
+    "title": "Chapter 11: Composition and Inheritance - Part I",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch11-Composition.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch11-Composition-Inheritance-Part-I.pdf",
+    "aiContextSummary": "This chapter explains composition in C++, demonstrating how objects can be built from other objects.",
+    "slidesTitle": "Composition and Inheritance - Part I",
+    "duration": "45 min",
+    "order": 4,
+    "description": "اكتشف كيفية إنشاء كلاسات تستخدم كائنات من كلاسات أخرى كأعضاء (Composition).",
+    "resource": {
+      "name": "ch11-Composition-Inheritance-Part-I.pdf",
+      "size": "537 KB",
+      "url": "/assets/chapters/oop/ch11-Composition-Inheritance-Part-I.pdf"
+    }
+  },
+  {
+    "id": "ch-se201-5",
+    "courseId": "se201",
+    "title": "Chapter 11: Composition and Inheritance - Part II",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch11-Comp-Inheritance+Template-Part II.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch11-Composition-Inheritance-Part-II.pdf",
+    "aiContextSummary": "This chapter explains inheritance and templates in C++, focusing on base and derived classes.",
+    "slidesTitle": "Composition and Inheritance - Part II",
+    "duration": "45 min",
+    "order": 5,
+    "description": "اكتشف كيفية إنشاء كلاسات جديدة ترث الخصائص والسلوكيات من كلاسات أساسية لتعزيز إعادة استخدام الكود.",
+    "resource": {
+      "name": "ch11-Composition-Inheritance-Part-II.pdf",
+      "size": "1,187 KB",
+      "url": "/assets/chapters/oop/ch11-Composition-Inheritance-Part-II.pdf"
+    }
+  },
+  {
+    "id": "ch-se201-6",
+    "courseId": "se201",
+    "title": "Chapter 12: Polymorphism and Virtual Functions",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch12-Polymorphism.vid.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch12-Polymorphism-and-Virtual-Functions.pdf",
+    "aiContextSummary": "This chapter focuses on polymorphism, virtual functions, and dynamic binding in C++ OOP.",
+    "slidesTitle": "Polymorphism and Virtual Functions",
+    "duration": "48 min",
+    "order": 6,
+    "description": "استكشف القدرة على استخدام دالة واحدة بأشكال مختلفة بناءً على نوع الكائن من خلال الدوال الافتراضية (Virtual Functions).",
+    "resource": {
+      "name": "ch12-Polymorphism-and-Virtual-Functions.pdf",
+      "size": "879 KB",
+      "url": "/assets/chapters/oop/ch12-Polymorphism-and-Virtual-Functions.pdf"
+    }
+  },
+  {
+    "id": "ch-se201-7",
+    "courseId": "se201",
+    "title": "Chapter 13: Overloading - Part I",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch13-Overloading.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch13-Overloading-PartI.pdf",
+    "aiContextSummary": "This chapter covers operator overloading in C++, allowing operators to be used with user-defined types.",
+    "slidesTitle": "Overloading - Part I",
+    "duration": "40 min",
+    "order": 7,
+    "description": "تعلم كيفية تحميل المعاملات (Operator Overloading) للعمل مع الكائنات المخصصة.",
+    "resource": {
+      "name": "ch13-Overloading-PartI.pdf",
+      "size": "734 KB",
+      "url": "/assets/chapters/oop/ch13-Overloading-PartI.pdf"
+    }
+  },
+  {
+    "id": "ch-se201-8",
+    "courseId": "se201",
+    "title": "Chapter 13: Overloading - Part II",
+    "videoId": "",
+    "videoUrl": "/assets/videos/oop.vids/ch13-Overloading.mp4",
+    "pdfUrl": "/assets/chapters/oop/ch13-Overloading-PartII.pdf",
+    "aiContextSummary": "This chapter continues operator overloading in C++, with advanced examples and use cases.",
+    "slidesTitle": "Overloading - Part II",
+    "duration": "40 min",
+    "order": 8,
+    "description": "تعلم متقدم في تحميل المعاملات (Operator Overloading).",
+    "resource": {
+      "name": "ch13-Overloading-PartII.pdf",
+      "size": "696 KB",
+      "url": "/assets/chapters/oop/ch13-Overloading-PartII.pdf"
+    }
+  }
+]

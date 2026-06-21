@@ -1,0 +1,33 @@
+{
+  "chapterId": "ch-cs101-1",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the time complexity of binary search on a sorted array?",
+      "options": ["O(n)", "O(log n)", "O(n²)", "O(1)"],
+      "correctIndex": 1,
+      "explanation": "Binary search halves the search space at each step, giving O(log n) time complexity — much faster than O(n) linear search."
+    },
+    {
+      "id": "q2",
+      "question": "Which data structure uses LIFO (Last-In, First-Out) ordering?",
+      "options": ["Queue", "Array", "Stack", "Linked List"],
+      "correctIndex": 2,
+      "explanation": "A Stack uses LIFO — the last element pushed is the first to be popped. Think of a stack of plates."
+    },
+    {
+      "id": "q3",
+      "question": "What is the worst-case time complexity for finding an element in an unsorted Linked List?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+      "correctIndex": 2,
+      "explanation": "In the worst case, you must traverse all n nodes to find the element or confirm it doesn't exist."
+    },
+    {
+      "id": "q4",
+      "question": "Which operation is O(1) for a Linked List but O(n) for an Array (when shifting is required)?",
+      "options": ["Access by index", "Insert at head", "Search by value", "Sort elements"],
+      "correctIndex": 1,
+      "explanation": "Inserting at the head of a Linked List is O(1) — just update the head pointer. Arrays require shifting all elements rightward, costing O(n)."
+    }
+  ]
+}

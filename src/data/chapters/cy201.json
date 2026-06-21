@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-cy201-1",
+    "courseId": "cy201",
+    "title": "مبادئ التشفير",
+    "videoId": "jhXCTbFnK8o",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "مبادئ_التشفير_Slides.pdf",
+      "size": "2.7 MB",
+      "url": "#"
+    }
+  }
+]

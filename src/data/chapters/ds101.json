@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ch-ds101-1",
+    "courseId": "ds101",
+    "title": "Supervised Learning",
+    "videoId": "Gv9_4yMHFhI",
+    "slidesTitle": "Regression, Classification & Model Evaluation",
+    "duration": "60 min",
+    "order": 1,
+    "description": "Build and evaluate supervised models. Cover linear regression, logistic regression, decision trees, SVMs, and ensemble methods. Understand bias-variance tradeoff and regularization.",
+    "resource": {
+      "name": "Supervised_Learning_Slides.pdf",
+      "size": "2.3 MB",
+      "url": "#"
+    }
+  },
+  {
+    "id": "ch-ds101-2",
+    "courseId": "ds101",
+    "title": "Neural Networks & Deep Learning",
+    "videoId": "aircAruvnKk",
+    "slidesTitle": "Perceptrons, Backpropagation & Activation Functions",
+    "duration": "65 min",
+    "order": 2,
+    "description": "From the perceptron to deep networks. Understand forward pass, loss computation, backpropagation, gradient descent, activation functions, and the universal approximation theorem.",
+    "resource": {
+      "name": "Neural_Networks___Deep_Learning_Slides.pdf",
+      "size": "2.7 MB",
+      "url": "#"
+    }
+  }
+]

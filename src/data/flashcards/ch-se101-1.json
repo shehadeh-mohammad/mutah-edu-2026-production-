@@ -1,0 +1,25 @@
+{
+  "chapterId": "ch-se101-1",
+  "cards": [
+    {
+      "id": "fc-1",
+      "question": "What is the Singleton pattern?",
+      "answer": "Ensures a class has only one instance and provides a global access point to it. Used for shared resources like DB connections or config managers."
+    },
+    {
+      "id": "fc-2",
+      "question": "What problem does the Factory Method solve?",
+      "answer": "It decouples object creation from the client code, allowing subclasses to decide which class to instantiate without changing the creator."
+    },
+    {
+      "id": "fc-3",
+      "question": "When would you use the Builder pattern?",
+      "answer": "When constructing complex objects with many optional parameters, avoiding telescoping constructors and enabling step-by-step construction."
+    },
+    {
+      "id": "fc-4",
+      "question": "What is the Prototype pattern?",
+      "answer": "Creates new objects by copying (cloning) an existing object. Useful when object creation is expensive and a similar object already exists."
+    }
+  ]
+}

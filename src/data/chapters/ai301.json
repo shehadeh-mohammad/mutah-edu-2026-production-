@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-ai301-1",
+    "courseId": "ai301",
+    "title": "الشبكات العصبية والتعلم العميق",
+    "videoId": "aircAruvnKk",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "الشبكات_العصبية_والتعلم_العميق_Slides.pdf",
+      "size": "3.6 MB",
+      "url": "#"
+    }
+  }
+]

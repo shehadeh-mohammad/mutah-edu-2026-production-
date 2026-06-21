@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-cis401-1",
+    "courseId": "cis401",
+    "title": "إدارة قواعد البيانات المؤسسية",
+    "videoId": "OAWl6F_9HJ8",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "إدارة_قواعد_البيانات_المؤسسية_Slides.pdf",
+      "size": "3.8 MB",
+      "url": "#"
+    }
+  }
+]

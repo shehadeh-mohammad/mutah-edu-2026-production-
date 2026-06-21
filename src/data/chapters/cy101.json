@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ch-cy101-1",
+    "courseId": "cy101",
+    "title": "أساسيات أمن الشبكات",
+    "videoId": "inWWhr5tnEA",
+    "slidesTitle": "مقدمة عامة",
+    "duration": "20 min",
+    "order": 1,
+    "description": "نظرة عامة وشاملة لمواضيع هذا المساق.",
+    "resource": {
+      "name": "أساسيات_أمن_الشبكات_Slides.pdf",
+      "size": "1.1 MB",
+      "url": "#"
+    }
+  }
+]
