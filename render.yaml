@@ -14,6 +14,9 @@ services:
 
       # SQLite resolves to ./prisma/dev.db relative to process.cwd()
       # No paid disk needed — ephemeral container resets to pre-seeded data on restart
+      - key: HOSTNAME
+        value: 0.0.0.0
+
       - key: DATABASE_URL
         value: file:./prisma/dev.db
 
